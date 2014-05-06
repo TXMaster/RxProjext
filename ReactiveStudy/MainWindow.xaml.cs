@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reactive.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,6 +24,19 @@ namespace ReactiveStudy
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Observe(object sender, EventArgs e)
+        {
+
+            var source = Observable.Return(42);
+
+            IDisposable subscription = source.Subscribe(number => Messages.Items.Add(number),
+                ex => Messages.Items.Add("OnError: " + ex.Message),
+                 () => Messages.Items.Add("OnCompleted"));
+
+            int x = 0;
+
         }
     }
 }
