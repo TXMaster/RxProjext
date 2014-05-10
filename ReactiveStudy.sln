@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveStudy", "ReactiveStudy\ReactiveStudy.csproj", "{A099E29C-FF4B-4802-8903-ADC60F58CCCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikipediaSearch", "WikipediaSearch\WikipediaSearch.csproj", "{682C437F-93EA-446A-8140-84B44543CB69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A099E29C-FF4B-4802-8903-ADC60F58CCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A099E29C-FF4B-4802-8903-ADC60F58CCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A099E29C-FF4B-4802-8903-ADC60F58CCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682C437F-93EA-446A-8140-84B44543CB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682C437F-93EA-446A-8140-84B44543CB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682C437F-93EA-446A-8140-84B44543CB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682C437F-93EA-446A-8140-84B44543CB69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
