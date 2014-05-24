@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveStudy", "ReactiveSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikipediaSearch", "WikipediaSearch\WikipediaSearch.csproj", "{682C437F-93EA-446A-8140-84B44543CB69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadingSample", "LoadingSample\LoadingSample.csproj", "{AEDF3A41-15F8-42CC-8C45-3C1459B8C028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{682C437F-93EA-446A-8140-84B44543CB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{682C437F-93EA-446A-8140-84B44543CB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{682C437F-93EA-446A-8140-84B44543CB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEDF3A41-15F8-42CC-8C45-3C1459B8C028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDF3A41-15F8-42CC-8C45-3C1459B8C028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDF3A41-15F8-42CC-8C45-3C1459B8C028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDF3A41-15F8-42CC-8C45-3C1459B8C028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
