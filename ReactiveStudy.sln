@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikipediaSearch", "Wikipedi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadingSample", "LoadingSample\LoadingSample.csproj", "{AEDF3A41-15F8-42CC-8C45-3C1459B8C028}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{17565341-F51F-4379-A919-76FCA0B83018}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AEDF3A41-15F8-42CC-8C45-3C1459B8C028}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEDF3A41-15F8-42CC-8C45-3C1459B8C028}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEDF3A41-15F8-42CC-8C45-3C1459B8C028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17565341-F51F-4379-A919-76FCA0B83018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17565341-F51F-4379-A919-76FCA0B83018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17565341-F51F-4379-A919-76FCA0B83018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17565341-F51F-4379-A919-76FCA0B83018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
